@@ -1,0 +1,25 @@
+{
+  "name": "anime-pet-widget",
+  "version": "1.0.0",
+  "description": "A kawaii pet companion for DeepSeek Harness (DSH) that sits at the bottom-right of the web GUI and reacts to the Agent state with synthesized sounds — including a completion chime when a task finishes.",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "cordis",
+    "dynamic-plugin",
+    "pet",
+    "anime",
+    "companion",
+    "web-audio"
+  ],
+  "license": "MIT",
+  "type": "module",
+  "files": [
+    "host.js",
+    "client.js",
+    "README.md"
+  ],
+  "scripts": {
+    "make:module": "node scripts/build-package.mjs"
+  }
+}
